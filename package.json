@@ -1,5 +1,6 @@
 {
   "name": "foody",
+  "license": "MIT",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -16,7 +17,8 @@
     "@strapi/strapi": "4.4.0",
     "better-sqlite3": "7.4.6",
     "pg": "^8.8.0",
-    "pg-connection-string": "^2.5.0"
+    "pg-connection-string": "^2.5.0",
+    "strapi-stripe": "^2.5.1"
   },
   "author": {
     "name": "A Strapi developer"
@@ -27,6 +29,5 @@
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
-  },
-  "license": "MIT"
+  }
 }
